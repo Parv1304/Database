@@ -44,7 +44,7 @@ function draw(){
 
 function readPosition(data)
 {
-   var position= data.val();
+   position= data.val();
    console.log(position.x);
    hypnoticBall.x = position.x;
    hypnoticBall.y=position.y;
